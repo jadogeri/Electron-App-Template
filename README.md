@@ -158,7 +158,7 @@ The application can run without installation.
 
 ### 3.2.3  Uninstalling program
 
-Electron-MERN-Monorepo application can be uninstalled via searching or control panel
+Electron app application can be uninstalled via searching or control panel
 
 ### Searching
 
