@@ -142,7 +142,7 @@ The standalone and installer version of app will be inside /dist directory.
 
 1 Navigate to /dist/win-unpacked directory.
 
-2 Double click on app.exe (Application) to run the program.
+2 Double click on electron-app.exe (Application) to run the program.
 
 ![Screenshot 1](assets/images/standalone.png)
 
@@ -152,7 +152,7 @@ The application can run without installation.
 
 1 Navigate to /dist/ directory.
 
-2 Double click on app Setup 0.1.0 .exe (Application) to install the  program.
+2 Double click on electron-app Setup 0.1.0 .exe (Application) to install the  program.
 
 ![Screenshot 1](assets/images/installer.png)
 
