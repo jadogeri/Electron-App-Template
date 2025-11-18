@@ -7,7 +7,7 @@
 
 ## Description
 
-Electron application template with embedded datbaseand state management (Context API and Redux implementations)) in typescript.
+Electron application template with typescript.
 
 ## Authors
 
@@ -15,7 +15,7 @@ Electron application template with embedded datbaseand state management (Context
 
 ## Repository
 
-- [source code ](https://github.com/jadogeri/Electron-MERN-Monorepo.git)
+- [source code ](https://github.com/jadogeri/Electron-App-Template.git)
 
 ## Screenshots
 
@@ -64,7 +64,7 @@ Electron application template with embedded datbaseand state management (Context
 
 ### **1.1 Purpose**
 
-This document outlines the components, and design considerations for add printing functionality to reactjs application.
+This document outlines the components, and design considerations for creating an electron app.
 
 ### **2. Technology Stack**
 
@@ -72,24 +72,23 @@ This document outlines the components, and design considerations for add printin
 - **IDE**: Visual Studio Code (VSCode)
 - **Source Control**: Git and GitHub
 - **Code Analysis**: SonarQube
-- **Database**: MongoDB
 - **Frontend**: React
 - **framework**: Node, Express and Electron
 
 ### **3. Usage**
 
-0 Open a terminal then type git clone https://github.com/jadogeri/Electron-MERN-Monorepo.git
+0 Open a terminal then type git clone https://github.com/jadogeri/Electron-App-Template.git
 to download to project.
 
 ```bash
-git clone https://github.com/jadogeri/Electron-MERN-Monorepo.git
+git clone https://github.com/jadogeri/Electron-App-Template.git
 
 ```
 
-1 Type cd Electron-MERN-Monorepo/app command.
+1 Type cd Electron-App-Template/electron-app command.
 
 ```bash
-  cd Electron-MERN-Monorepo/app
+  cd Electron-App-Template/electron-app
 ```
 
 2 Type npm install --force command to install dependencies.
@@ -97,10 +96,6 @@ git clone https://github.com/jadogeri/Electron-MERN-Monorepo.git
 ```bash
   npm install --force
 ```
-
-3 Create .env file then fill out the environment variables using .env.sample as template
-
-![Screenshot 1](assets/images/env-sample.png)
 
 ### 3.0 Run Electron App React
 
@@ -123,7 +118,7 @@ a build directory will be generated as shown below.
 ![Screenshot 1](assets/images/dev.png)
 
 The desktop app will reload if you make edits.
-You will also see any lint errors in the developer tool console if enabled in main.ts (Electron-MERN-Monorepo/app/electron/main.ts).
+You will also see any lint errors in the developer tool console if enabled in main.ts (Electron-App-Template/electron-app/electron/main.ts).
 
 ```bash
   npm run electron:dev
