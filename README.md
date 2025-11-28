@@ -55,7 +55,7 @@ Electron application template with typescript.
         </ul>
     </li>  
     <ul> 
-        <li><a href="#10-references">4. References</a>
+        <li><a href="#4-references">4. References</a>
         </li>
     <ul>
 </ul>
